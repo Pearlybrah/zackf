@@ -216,3 +216,61 @@ footer {
 .footer-nav li a[class="mail"] {
   color: #408e61;
 }
+
+/*------------------------*/
+/*--------Responsive----------*/
+/*------------------------*/
+
+/* Small Phone 0px-480px */
+@media only screen and (max-width: 480px) {
+  .developer-photo {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    vertical-align: center;
+  }
+
+  .main-nav {
+    display: inline-block;
+  }
+  .main-nav li {
+    margin-top: 10px;
+  }
+  .quote,
+  .author {
+    font-family: cursive;
+    color: #fff;
+    letter-spacing: 1px;
+
+    text-align: center;
+    font-size: 80%;
+  }
+
+  .parent-quote-box {
+    position: relative;
+  }
+
+  blockquote .quote {
+    margin-bottom: 100px;
+  }
+
+  blockquote:before {
+    content: "\201C";
+    font-size: 200%;
+
+    top: -5px;
+    left: 10px;
+  }
+}
+
+/* Bigger Phones/Tablets 481px-767px */
+@media only screen and (max-width: 767px) {
+}
+
+/* Small Tablets/Big Tablets 768px-1023px */
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
